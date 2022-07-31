@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./star-solid (1).svg" type="image/icon type">
+    <script src="https://kit.fontawesome.com/e6fb9338c5.js" crossorigin="anonymous"></script>
+    <title>Check Your Birthday</title>
+    <link rel="stylesheet" href="styles.css"type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+
+</head>
+
+<body>
+    <img class='start-image'src="./GettyImages-1219869455-scaled.jpg" alt="">
+    <main class="section-center">
+          <section id="form">
+            <form id="login-Form">            
+                <h2>LOGIN</h2>
+                <div  class="input-form">
+                    <input type="email" id="email-login" name="email" placeholder="Email"><br>
+                </div>
+                <div class="input-form">
+                    <input type="password" id="password-login" name="password" placeholder="Password "><br>
+                </div>
+                <button type='submit' id='btnLogin'> Log In</button>
+            </form>
+          </section>
+          <div id='signup-button-section'>
+            <p>Do not have accout yet ?</p>
+            <button type='button' id="signup-button">Sign Up</button>
+          </div>
+    </main>
+    <button class="sign-out-button">SIGN OUT</button>
+    <script src="./main.js"></script>
+</body>
+
+</html>
